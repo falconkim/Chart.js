@@ -18,8 +18,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.content {
-	max-width: 800px;
+.content {	max-width: 100%;
 	margin: auto;
 	padding: 16px 32px;
 }
@@ -189,3 +188,5 @@ a:hover {
 	padding: 2px;
 	text-align: center;
 }
+
+.frm {border:0; width:100%; min-height:300px;}

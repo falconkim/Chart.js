@@ -39,6 +39,7 @@
 			var el = document.createElement('div');
 			el.className = 'samples-entry';
 			el.innerHTML = '<a class="title" href="' + item.path + '">' + item.title + '</a>';
+			el.innerHTML += '<iframe class="frm" src="' + item.path + '"></iframe>';
 			return el;
 		}
 
